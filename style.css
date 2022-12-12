@@ -153,6 +153,7 @@ header{
 .section-two{
     padding: 49px 150px;
     margin-top: 120px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
 }
@@ -198,6 +199,7 @@ header{
     border-radius: 50px;
     display: flex;
     flex-direction: column;
+
 
 }
 
@@ -251,6 +253,7 @@ header{
     justify-content: safe;
     margin-left: 40px;
     padding: 10px 24px ;
+    cursor: pointer;
 }
 
 
@@ -278,6 +281,50 @@ header{
     z-index: 2;
 
 }
+
+.section-three{
+    background-color: #FFF8EE;
+    display: flex;
+    padding: 49px 150px;
+    justify-content: space-between;
+}
+
+.section-three-information{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 442px;
+    background-color: #FB9333;
+}
+
+.opnions{
+    display: flex;
+    gap: 30px;
+
+}
+
+.opnion-content{
+    border-radius: 8px;
+    width: 300px;
+    height: 442px;
+    background-color: aqua;
+}
+
+.text-h2{
+    width: 415px;
+    height: 128px;
+    margin-top: 113px;
+    font-size: 48px;
+    color: var(--text-secondary);
+
+}
+
+.text-p{
+    width: 415px;
+    height: 128px;
+}
+
+
 
 
 
