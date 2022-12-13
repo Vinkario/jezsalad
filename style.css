@@ -294,7 +294,6 @@ header{
     flex-direction: column;
     width: 700px;
     height: 442px;
-    background-color: #FB9333;
 }
 
 .opnions{
@@ -307,22 +306,53 @@ header{
     border-radius: 8px;
     width: 300px;
     height: 442px;
-    background-color: aqua;
+    background-color: #fff;
 }
 
 .text-h2{
-    width: 415px;
+    width: 515px;
     height: 128px;
-    margin-top: 113px;
-    font-size: 48px;
+    font-size: 28px;
     color: var(--text-secondary);
+    margin-bottom: 30px;
 
 }
+
 
 .text-p{
     width: 415px;
     height: 128px;
+    font-size: 16px;
+    color: var(--text-primary);
 }
+
+.img-opnion{
+    position: relative;
+    margin-left: 24px;
+    margin-top: 20px;
+    margin-bottom: 52px;
+    
+}
+
+.text-opnion{
+    margin-left: 24px;
+    font-size: 24px;
+}
+
+.text-opnion span{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: var(--text-primary);
+}
+
+.text-opnion p{
+    font-size: 16px;
+    width: 250px;
+    color: var(--text-primary);
+    
+}
+
+
 
 
 
