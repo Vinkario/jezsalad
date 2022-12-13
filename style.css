@@ -436,6 +436,8 @@ header{
 .subscribe{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 550px;
     background-color: #FFF8ED;
     border-radius: 50px;
@@ -478,9 +480,6 @@ header{
     width: 700px;
     height: 80px;
     border-radius: 100px;
-    margin-left: 350px;
-   
-
 }
 
 .input input{
